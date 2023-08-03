@@ -69,7 +69,7 @@ alloc = ["ring?/alloc"]
 std = ["alloc"]
 
 [dependencies]
-ring = { version = "0.16.19", default-features = false, optional = true }
+ring = { version = "0.16.20", default-features = false, optional = true, git = "https://github.com/svenpaulsen/ring", branch = "v0.16.20-patched" }
 untrusted = "0.7.1"
 
 [dev-dependencies]
@@ -104,3 +104,4 @@ harness = false
 [patch.crates-io]
 # TODO(XXX): Remove this once rcgen has cut a release w/ CRL support included.
 rcgen = { git = 'https://github.com/est31/rcgen.git' }
+4
