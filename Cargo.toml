@@ -104,4 +104,3 @@ harness = false
 [patch.crates-io]
 # TODO(XXX): Remove this once rcgen has cut a release w/ CRL support included.
 rcgen = { git = 'https://github.com/est31/rcgen.git' }
-4
